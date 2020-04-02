@@ -13,6 +13,7 @@
 		55942E912105B69C008E0CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55942E902105B69C008E0CC0 /* Assets.xcassets */; };
 		55942E942105B69C008E0CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55942E922105B69C008E0CC0 /* LaunchScreen.storyboard */; };
 		55942E972105B69C008E0CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55942E962105B69C008E0CC0 /* main.m */; };
+		55942E9F2105B6DA008E0CC0 /* ZTDragCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55942E9E2105B6DA008E0CC0 /* ZTDragCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		55942E932105B69C008E0CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55942E952105B69C008E0CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55942E962105B69C008E0CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55942E9D2105B6DA008E0CC0 /* ZTDragCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTDragCustomView.h; sourceTree = "<group>"; };
+		55942E9E2105B6DA008E0CC0 /* ZTDragCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTDragCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				55942E922105B69C008E0CC0 /* LaunchScreen.storyboard */,
 				55942E952105B69C008E0CC0 /* Info.plist */,
 				55942E962105B69C008E0CC0 /* main.m */,
+				55942E9D2105B6DA008E0CC0 /* ZTDragCustomView.h */,
+				55942E9E2105B6DA008E0CC0 /* ZTDragCustomView.m */,
 			);
 			path = ZTDragCustomView;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				55942E8C2105B69A008E0CC0 /* ViewController.m in Sources */,
 				55942E972105B69C008E0CC0 /* main.m in Sources */,
 				55942E892105B69A008E0CC0 /* AppDelegate.m in Sources */,
+				55942E9F2105B6DA008E0CC0 /* ZTDragCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
